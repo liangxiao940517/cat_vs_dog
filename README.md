@@ -1,2 +1,5 @@
-# cat_vs_dog
 Kaggle猫狗大战
+
+利用Tensorflow来实现一个猫狗分类的神经网络，网络模型采用的是经典的AlexNet。
+Convert_to_TFRecord.py主要将图像数据转换为Tensorflow的标准数据模式TFRecord格式并进行存储
+cat_vs_dog.py主要完成TFRecord格式数据的读取、网络模型的构建、训练以及评估。
